@@ -3039,6 +3039,10 @@ ol {
   .hero-area .hero-slider .single-slider .content {
     padding-right: 30px;
     padding-left: 20px;
+    z-index: 1024;
+  }
+  .hero-area .hero-slider .single-slider img {
+    height: 200px;
   }
 }
 
