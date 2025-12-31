@@ -2977,6 +2977,17 @@ ol {
   background-repeat: no-repeat;
   height: 500px;
   position: relative;
+  overflow: hidden;
+}
+
+.hero-area .hero-slider .single-slider img {
+  width: auto;
+  height: 400px;
+  margin-left: auto;
+  position: relative;
+  right: -50px;
+  top: 50px;
+  display: block;
 }
 
 @media (max-width: 767px) {
@@ -3138,6 +3149,17 @@ ol {
   background-repeat: no-repeat;
   background-size: contain;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.hero-area .hero-small-banner img {
+  height: 210px;
+  width: auto;
+  margin-left: auto;
+  position: relative;
+  right: -20px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3305,6 +3327,7 @@ ol {
   position: relative;
   background: #fff;
   z-index: 0;
+  height: 100%;
 }
 
 .featured-categories .single-category .heading {
@@ -3337,11 +3360,12 @@ ol {
 
 .featured-categories .single-category img {
   position: absolute;
-  right: 0;
+  right: -30px;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: -1;
+  width: 250px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -8363,4 +8387,8 @@ blockquote span {
   .footer .footer-bottom .socila li span {
     display: none;
   }
+}
+
+.hidden {
+  display: none;
 }
